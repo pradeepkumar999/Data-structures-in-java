@@ -30,3 +30,6 @@ Java codes to prepare DSA
 
 9.Trees
 
+10.oops
+- ***MultipleClass*** creating multiple classes and accessing one in other
+- ***ClassesObjects*** creating objects in the class
