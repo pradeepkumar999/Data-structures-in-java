@@ -21,8 +21,8 @@ Java codes to prepare DSA
 6.Recursion
 
 7.Stacks&queues
--***QueueArr***implementation of queue using array
--***StackAL***implementation of stack using arrayList
+- ***QueueArr*** implementation of queue using array
+- ***StackAL*** implementation of stack using arrayList
 
 
 
