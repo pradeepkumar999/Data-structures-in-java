@@ -17,7 +17,13 @@ public class TreeCreation {
     static Scanner sc=new Scanner(System.in);
     public static void main(String[] args) {
         Node root=Creation();
-        
+        inOrder(root);
+        System.out.println();
+        postOrder(root);
+        System.out.println();
+        preOrder(root);
+        System.out.println();
+
     }
     static Node Creation(){
         
@@ -36,5 +42,24 @@ public class TreeCreation {
         root.right=Creation();
 
         return root;
+    }
+
+    static void inOrder(Node root){
+        if(root==null) return;
+        inOrder(root.left);
+        System.out.println(root.data);
+        inOrder(root.right);
+    }
+     static void postOrder(Node root){
+        if(root==null) return;
+        postOrder(root.left);
+        postOrder(root.right);
+        System.out.println(root.data);
+    }
+     static void preOrder(Node root){
+        if(root==null) return;
+        preOrder(root.left);
+        preOrder(root.right);
+        System.out.println(root.data);
     }
 }
